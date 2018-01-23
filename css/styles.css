@@ -12,8 +12,6 @@
     
 }
 
-
-
 /* this is link text color, the href anchors change it */
 .navBackground a {
     color: white;
@@ -29,17 +27,10 @@
     color: black;
 }
 
-
-
 body {
     margin-left: 0 0 0 10%;
     font-family: 'Lato', sans-serif;
 }
-
-
-
-
-
 
 footer {
     text-align: center;

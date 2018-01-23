@@ -1,3 +1,7 @@
+h1 {
+    text-align: center;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     margin: 0 0 0 10%;
@@ -35,8 +39,7 @@ body {
 
 .indiv-prod:hover {
     color:#79CCC9;
-    position: relative;
-    
+    position: relative;    
 }
 
 .shopping-cart {
