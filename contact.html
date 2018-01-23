@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />-->
 </head>
 <body>
     <header>
@@ -23,12 +23,15 @@
             <input type="submit" value="Send">
         </form>
         <h3>Location</h3>
-        <div class="map"></div>
+        <div id="googleMap" style="width:400px; height:400px"></div>
             
     </div>
     <footer>
 
     </footer>
-<script src="JS/main.js" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFSPE9C9iKg9ABrTrYBniqe9EyXXllCIM&callback=myMap"
+  type="text/javascript"></script>
+<script src="JS/main.js"></script>
+
 </body>
 </html>

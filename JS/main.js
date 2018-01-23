@@ -1,9 +1,8 @@
 // google maps on contacts page
-function googleMap() {
-    const map = {
-        center: new google.maps.LatLng(35.838065, -86.48445219999999),
-        zoom:10,
-        mapTypeId: google.maps.MapTypeId.HYBRID
-    }
-var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+function myMap() {
+    var mapProp = {
+        center: new google.maps.LatLng(51.508742,-0.120850),
+        zoom: 5,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
