@@ -1,0 +1,62 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.prod-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+} 
+
+.prod-card div {
+    flex: 1 1 180px;
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+    text-align: center;
+    align-items: center;
+}
+
+.prod-card img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 0px 8px #ffffff; 
+    -webkit-box-shadow: 0px 0px 8px #ffffff; 
+    -ms-box-shadow: 0px 0px 8px #ffffff;
+    -o-box-shadow: 0px 0px 8px #ffffff; 
+}
+
+.indiv-prod:hover {
+    color:#79CCC9;
+    position: relative;
+    
+}
+
+.shopping-cart {
+    background: #10B9D2;
+    background-image: -webkit-linear-gradient(top, #10B9D2, #D9DEDE);
+    background-image: -moz-linear-gradient(top, #10B9D2, #D9DEDE);
+    background-image: -ms-linear-gradient(top, #10B9D2, #D9DEDE);
+    background-image: -o-linear-gradient(top, #10B9D2, #D9DEDE);
+    background-image: linear-gradient(to bottom, #10B9D2, #D9DEDE);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    }
+    
+    .shopping-cart:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+    
