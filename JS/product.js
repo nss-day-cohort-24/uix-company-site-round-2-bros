@@ -19,4 +19,5 @@ for (i = 0; i < products.length; i++) {
 }
 document.getElementById("card").innerHTML = productHtml;
 
-productHtml[0] = document.getElementById("suits").innerHTML;
+var prodPageLink = product[0].images;
+prodPageLink = document.getElementById("suit").innerHTML;
