@@ -4,6 +4,21 @@
     font-size: 1.5em;
 }
 
+body {
+    margin:0 0 0 10%;
+}
+
+/*navigation bar */
+#navBackground {
+    background-color: #10B9D2;
+    height: 100%;
+    width: 10%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    overflow-x: hidden;
+}
+
 /*the logo and mission statement for openideo*/
 .logo {
    text-align: center;
@@ -17,6 +32,7 @@ p {
 
 h5 {
     padding: 5% 0 0 0 ;
+    margin: 0;
 }
 
 
@@ -26,5 +42,11 @@ h5 {
 h3 {
     font-size: 2em;
     padding: 7% 0 7% 0;
+}
+
+.designers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
