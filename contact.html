@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/contact.css" />
 </head>
 <body>
@@ -13,18 +14,21 @@
     </header>
     <div class="container">
         <h1>Contact Us!</h1>
-        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-            Name:<br>
-            <input type="text" name="name"><br>
-            E-mail:<br>
-            <input type="text" name="mail"><br>
-            Comment:<br>
-            <input type="text" name="comment" size="50"><br><br>
-            <input type="submit" value="Send">
-        </form>
-        <h3>Location</h3>
-        <div id="googleMap" style="width:400px; height:400px"></div>
-            
+        <div class="flex-container">
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                Name:<br>
+                <input type="text" name="name"><br>
+                E-mail:<br>
+                <input type="text" name="mail"><br>
+                Comment:<br>
+                <input type="text" name="comment" size="50"><br><br>
+                <input type="submit" value="Send">
+            </form>
+            <div class="locationContainer">
+                <h3>Location</h3>
+                <div id="googleMap" style="width:400px; height:400px"></div>
+            </div>
+        </div>    
     </div>
     <footer>
 
