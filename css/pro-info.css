@@ -1,0 +1,13 @@
+h2 {
+    font-size: 4em;
+}
+
+.prod-container {
+    margin-left: 20%;
+}
+
+.prod-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+} 
