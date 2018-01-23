@@ -1,0 +1,26 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;/*centering Contact us headline*/
+}
+
+.flex-container {
+    display: inline-flex;/*making items in flex-container inline*/
+    margin: 20px 10% 0 10%;
+}
+
+form {
+    padding-right: 40px;
+    
+}
+
+h3 {
+    margin-top: 0;
+}
+
+input {
+    font-size: .75em;
+    background-color: #D9DEDE}

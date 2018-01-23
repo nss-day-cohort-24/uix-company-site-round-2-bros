@@ -1,0 +1,30 @@
+
+.container {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+/*the logo and mission statement for openideo*/
+.logo {
+   text-align: center;
+   background-color: #D9DEDE;
+   padding-bottom: 10%;
+}
+
+p {
+    margin: 0 30% 0 30%;
+}
+
+h5 {
+    padding: 5% 0 0 0 ;
+}
+
+
+
+/*designers portion*/
+
+h3 {
+    font-size: 2em;
+    padding: 7% 0 7% 0;
+}
+
