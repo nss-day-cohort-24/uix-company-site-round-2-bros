@@ -18,3 +18,5 @@ for (i = 0; i < products.length; i++) {
     productHtml += `</div>`;
 }
 document.getElementById("card").innerHTML = productHtml;
+
+productHtml[0] = document.getElementById("suits").innerHTML;

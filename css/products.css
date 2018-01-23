@@ -3,8 +3,6 @@ body {
     margin: 0 0 0 10%;
 }
 
-
-
 .prod-card {
     display: flex;
     flex-wrap: wrap;
@@ -29,6 +27,7 @@ body {
     -ms-box-shadow: 0px 0px 8px #ffffff;
     -o-box-shadow: 0px 0px 8px #ffffff; 
 }
+
 
 .indiv-prod {
     display: flex;
@@ -72,13 +71,13 @@ body {
 
 #navBackground {
     background-color: #4b8584;
-        height: 100%;
-        width: 10%;
-        position: fixed;
-        z-index: 1;
-        left: 0;
-        overflow-x: hidden;
-        padding-top: 20px;
+    height: 100%;
+    width: 10%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
     
 }
 
