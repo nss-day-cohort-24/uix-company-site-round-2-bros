@@ -55,5 +55,21 @@ h3 {
     flex-wrap: wrap;
 }
 
+.statement {
+    text-align: center;
+}
+
+.statement h6 {
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+.statement p {
+margin-top: 5%;
+}
+
+hr {
+    width: 30%;
+}
 
 
