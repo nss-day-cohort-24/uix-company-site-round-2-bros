@@ -17,16 +17,23 @@
     color: white;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
+    
 }
 
 .navBackground li {
     list-style-type: none;
     line-height: 50px;
+    margin: 0 0 0 -40%;
+    text-align: center;
 }
 
 .navBackground a:hover {
     color: black;
+    font-size: small;
 }
+
+
+
 
 body {
     margin: 0 0 0 10%;
@@ -37,8 +44,9 @@ body {
 
 
 .welcomeText {
-    font-size: 8em;
+    font-size: 7em;
     text-align: center;
+    
 }
 
 .removeMargin {
@@ -47,8 +55,12 @@ body {
 }
 
 .welcomeText2 {
-    text-align: right;
-    /* padding-top: -40em; */
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 1em;
+    line-height: 1em;
+    margin-top: -40px;
+    padding-top: -40em;
 
 }
 
@@ -61,13 +73,41 @@ body {
 
 .footer ul {
     padding-top: .5em;
-    padding-right: 5em;
+    padding-right: 5em;  
+    text-decoration: none;  
+}
+
+.footer li {
+    list-style-type: none;
     text-decoration: none;
+    color: black;
     
+}
+
+.footer li a:visited {
+    color: #10b9d2;
+}
+
+.footer li a:hover {
+    font-size: small;
+}
+
+.fontStyle {
+    color: black;
+    font-size: smaller;
+}
+
+.fontStyle a:visited {
+    color: black;
+}
+
+.fontStyle a:hover {
+    color: #d9dede;
 }
 
 html, body {
     height: 100%;
+
 }
 
 .wrapper {
