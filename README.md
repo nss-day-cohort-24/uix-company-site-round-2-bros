@@ -2,7 +2,7 @@
 
 
 <!-- this descibes the why -->
-## 
+## Project Goals
 The project is focused around our Challenge Statement and designed for males in their early twenties to late thirties who are entering their career field. From reasearching our user we have learned that bros are realizing that the patterns of their youth are no longer helping them achieve their goals both professionaly and personally, therefore we developed a platform to bridge the gap and give aspiring young bros the tools to become successful modern men.
 
 
