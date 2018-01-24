@@ -1,36 +1,34 @@
-# Group Project 2: Company Site
-
-
-
-
-
-<!-- this describes the what -->
-## Rebranding Site  
-Rebranding a previous companies website (A2B, inc) that IDEO has bought out and hired C, inc to redesign the new site and give a sophisticated look.  
+# Group Project 2 Company Site: Chivalry/IDEO
 
 
 <!-- this descibes the why -->
 ## 
-Slowly but surely bros are realizing that the patterns of their youth are no longer helping them achieve their goals.
+The project is focused around our Challenge Statement and designed for males in their early twenties to late thirties who are entering their career field. From reasearching our user we have learned that bros are realizing that the patterns of their youth are no longer helping them achieve their goals both professionaly and personally, therefore we developed a platform to bridge the gap and give aspiring young bros the tools to become successful modern men.
 
 
+<!-- this describes the what -->
+## Rebranding Site  
+Our company has been hired by IDEO to rebrand a previous companies website (A2B, inc). We redesigned the new site around a sophisticated and sleek style from IDEO's provided brand guide that incorporate their companies look and feel as well as our own. 
 
 
+## Code Style
+We used HTML, CSS, and Javascript. 
 
 
+### Wireframing
+We started with affinity clustering to plan our goals with the site and how to improve upon the previous app. We then planned and decided on the protype layout of each of the pages by sketching it out on paper and whiteboard.
 
 
+### HTML Structure
+We used HTML to structure the content of the pages.  
 
 
+###Github
+Set up repository on github to ensure consistent workflow at all stages of the build. 
 
 
-
-
-
-
-
-
-
+### Universal Stylesheet
+CSS was used in an external stylesheet that we linked to the index.html page and included a link to the universal stylesheet in every file. This was set up for streamlined styling of the Navigation bar and Footer of each page. Also, the fonts, font colors, background color.
 
 
 
