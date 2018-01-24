@@ -1,3 +1,55 @@
+# Group Project 2: Company Site
+
+
+
+
+
+<!-- this describes the what -->
+## Rebranding Site  
+Rebranding a previous companies website (A2B, inc) that IDEO has bought out and hired C, inc to redesign the new site and give a sophisticated look.  
+
+
+<!-- this descibes the why -->
+## 
+Slowly but surely bros are realizing that the patterns of their youth are no longer helping them achieve their goals.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+
+
+
+
 # Group Project UIX: Company Site
 
 As a team, build the web site for a fictitious product company. The team gets to decide the name of the company and what types of products it manufactures/sells. Be creative and have fun.
@@ -88,7 +140,7 @@ The team's product page will be driven from JavaScript code. Decide on at least,
         * The job of the controller is to query and manipulate the DOM.
 1. Create data with object constructor.
 1. Include a competitor evaluation
-1. Add a form for ordering.
+1. Add a form for ordering. -->
 
 
 
