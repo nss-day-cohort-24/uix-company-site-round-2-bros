@@ -81,7 +81,6 @@ body {
     list-style-type: none;
     text-decoration: none;
     color: black;
-    
 }
 
 .footer li a:visited {
@@ -119,3 +118,13 @@ html, body {
     height: 1px;
 
 }
+
+.images {
+    padding-top: 5em;
+    margin-left: 15em;
+}
+
+.imagesTwo {
+    padding-bottom: 5em;   
+}
+
