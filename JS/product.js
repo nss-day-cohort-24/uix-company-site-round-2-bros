@@ -21,3 +21,13 @@ document.getElementById("card").innerHTML = productHtml;
 
 var prodPageLink = product[0].images;
 prodPageLink = document.getElementById("suit").innerHTML;
+
+function redirect(event) {
+    
+    if (event.target.className === "shopping-cart") {
+        window.location="#";
+
+    } else if (event.target.id === "pics_1") {  
+        window.location="pro-info.html";
+    }      
+};
