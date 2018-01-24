@@ -128,3 +128,8 @@ html, body {
     padding-bottom: 5em;   
 }
 
+.logo-nav {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
