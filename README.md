@@ -23,7 +23,7 @@ We started with affinity clustering to plan our goals with the site and how to i
 We used HTML to structure the content of the pages.  
 
 
-###Github
+### Github
 Set up repository on github to ensure consistent workflow at all stages of the build. 
 
 
