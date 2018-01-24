@@ -25,7 +25,7 @@ productElement.addEventListener("click",redirect);
 function redirect(event) {
     
     if (event.target.className === "shopping-cart") {
-        window.location="#";
+        window.location="shopping-cart.html";
 
     } else if (event.target.id === "pics_1") {  
         window.location="pro-info.html";
