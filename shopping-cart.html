@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Shopping CArt</title>
+    <title>Shopping Cart</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/shopping-cart.css" />
@@ -21,14 +21,28 @@
             </nav>
         </div>
         </header>    
-    <h1>Your Cart</h1>
+    <div id="header"></div>
+    <fieldset class="form-container">
+            <label class="form-item">Billing Address</label><input type="text" />
+            <label class="form-item">City</label><input type="text" />
+            <label class="form-item">Province</label><input type="text" />
+            <label class="form-item">Postal Code</label><input type="text" />
+        </fieldset>
+         
+        <fieldset class="form-container">
+            <label class="form-item">Shipping Address</label><input type="text" />
+            <label class="form-item">City</label><input type="text" />
+            <label class="form-item">Province</label><input type="text" />
+            <label class="form-item">Postal Code</label><input type="text" />
+        </fieldset>
 
+        <button type="submit">Submit</button>
+        
 
     <div class="wrapper">
     <div class="push"></div>
     </div>
-            
-            
+                        
     <footer class="footer">
         <hr width="100%">&copy; Who Are We, Inc. 2018
         <ul>
@@ -43,7 +57,7 @@
             <a href="#"><img src="images/linkedin.png" alt="Visit Chivalry's LinkedIn profile" title="Chivalry's LinkedIn profile" width="20" height="20"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="#"><img src="images/twitter.png" alt="Visit Chivalry's Twitter Board" title="Chivalry's Twitter Board" width="20" height="20"></a>
         </div>
-    </footer>    
-                 
+    </footer> 
+<script src="JS/shopping-cart.js"></script>                       
 </body>
 </html>
