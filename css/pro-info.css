@@ -3,46 +3,6 @@ h2 {
     font-family: 'Lato', sans-serif;
 }
 
-.prod-container {
-    margin-left: 20%;
-}
-
-.prod-card {
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: wrap;
-} 
-
-
-.prod-card div {
-    flex: 1 1 180px;
-    padding: 2%;
-    flex-grow: 1;
-    flex-basis: 16%;
-    text-align: center;
-    align-items: center;
-}
-
-.prod-card img {
-    width: 250px;
-    height: 250px;
-    box-shadow: 0px 0px 8px #ffffff; 
-    -webkit-box-shadow: 0px 0px 8px #ffffff; 
-    -ms-box-shadow: 0px 0px 8px #ffffff;
-    -o-box-shadow: 0px 0px 8px #ffffff; 
-}
-
-.indiv-prod {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.indiv-prod:hover {
-    color:#79CCC9;
-    position: relative;    
-}
-
 .list-of-products {
     display: flex;
     font-size: 1.25em;
