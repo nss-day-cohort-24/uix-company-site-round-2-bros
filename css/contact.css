@@ -5,11 +5,21 @@
 
 h1 {
     text-align: center;/*centering Contact us headline*/
+    font-size: 3em;
+    background-color: #D9DEDE;
+    margin: 0;
+    padding: 10% 0 10% 0;
 }
 
 .flex-container {
-    display: inline-flex;/*making items in flex-container inline*/
+    display: flex;/*making items in flex-container block*/
+    justify-content: center;
+    flex-direction: column;
     margin: 20px 10% 0 10%;
+    padding: 5% 0 0 10%;
+}
+.locationContainer {
+    padding-top: 50px;
 }
 
 form {
